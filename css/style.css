@@ -149,10 +149,6 @@ img {
         margin-bottom: 3rem;
     }
 
-    .steps .col {
-        width: 50%;
-    }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -161,7 +157,10 @@ img {
         flex-wrap: wrap;
     }
 
-    .lessons .col{
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right{
         width: 100%;
     }
 
@@ -169,17 +168,8 @@ img {
         margin-bottom: 3rem;
     }
 
-    .steps .col {
-        width: 100%;
-    }
-
     .why-us .col-left{
-        width: 100%;
         margin-bottom: 3rem;
-    }
-
-    .why-us .col-right{
-        width: 100%;
     }
 
 }
